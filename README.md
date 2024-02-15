@@ -42,6 +42,10 @@ API Endpoints:
 GET /users - Retrieve a list of all users. (all authenticated users)
 POST /auth/register - Register a new user into the App
 POST /auth/login - Login into the App
+GET /expense - Retrieve a list of all expenses (ADMIN authenticated user)
+POST /expense - Register a new expense into the App (ADMIN authenticated user)
+GET /expense/category - Get all expense categories (ADMIN authenticated user)
+POST /expense/category - Resgiter a new expense category into the App (ADMIN authenticated user)
 ```
 
 Contribuindo
